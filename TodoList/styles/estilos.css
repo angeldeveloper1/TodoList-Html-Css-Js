@@ -1,3 +1,4 @@
+/* Estilos generales de la aplicación */
 body{
   font-family: Arial;
   display: flex;
@@ -5,7 +6,7 @@ body{
   align-items: center;
   background-color: white;
 }
-
+/* Estilos para la disposición de la lista de tareas y entrada de tareas */
 .todo-grid,
 .todo-input-grid{
   display: grid;
@@ -19,7 +20,7 @@ body{
   margin-bottom: 10px;
   align-items: stretch;
 }
-
+/* Estilos para las entradas de texto y botones */
 .name-input,
 .due-date-input{
   font-size: 15px;
